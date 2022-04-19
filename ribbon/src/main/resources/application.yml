@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ribbon-client
+
+server:
+  port: 9999
+
+mongocruda:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090, localhost:8091
+    ServerListRefreshInterval: 10000
