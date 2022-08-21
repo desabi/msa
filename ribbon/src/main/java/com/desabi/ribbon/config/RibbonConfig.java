@@ -8,6 +8,8 @@ import com.netflix.loadbalancer.WeightedResponseTimeRule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 
+// Cuando se usa esta clase, marca error:
+// No instances available for mongocruda
 public class RibbonConfig {
 
     @Autowired
